@@ -1,3 +1,136 @@
-body{
-font-family: 'Lato', sans-serif;
+/* Reset some default browser styles */
+body,
+h1,
+p,
+ul,
+li{
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color for the entire page */
+body {
+    background-color:  #f0f0f0;
+    font-family: 'Lato' sans-serif;
+}
+
+/* Style the header section */
+header {
+    background-color:  #862f2f;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo{
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+/* Style the navigation links */
+.links a{
+    color:#fff;
+    text-decoration:none;
+    margin: 0 20px;
+    font-size:18px;
+}
+
+/* Style the first section */
+.first-section {
+    text-align:center;
+    padding:40px;
+}
+
+.first-header{
+    font-size:36px;
+    margin-bottom:20px;
+}
+
+.first-header-subtext{
+    font-size:18px;
+    margin-bottom:30px;
+}
+
+/* Style the button in the first section */
+.first-class{
+    background-color:#1e90ff;
+    color:#fff;
+    padding:10px 20px;
+    font-size:20px-small;
+    border:none;
+    cursor:pointer;
+}
+
+/* Style the second section */
+.second-section {
+    background-color:#5a2626;
+    padding:40px;
+}
+
+.image-second {
+    text-align:center;
+}
+
+.image-second img {
+    max-width:100%;
+    height:auto;
+    margin-bottom:10px;
+}
+
+/* Style the third section */
+.third-section {
+    background-color:#1e90ff;
+    color:#000000;
+    text-align:center;
+    padding:20px;
+}
+
+.quote {
+    font-size: 24px;
+    margin-bottom:10px;
+    
+}
+
+.quoter {
+    font-size:18px;
+}
+
+/* Style the fourth section */
+.fourth-section{
+    background-color:#5a1414;
+    text-align:center;
+    padding:20px;
+    
+}
+
+.text{
+    font-size:24px;
+    margin-bottom:10px;
+}
+
+.subtext {
+    font-size:18px;
+    margin-bottom:10px;
+}
+
+/* Style the button in the fourth section */
+.button {
+    background-color:#1e90ff;
+    color:#fff;
+    padding:10px 20px;
+    font-size:20px-small;
+    border:none;
+    cursor:pointer;
+}
+
+/* Style the footer */
+.footer {
+    background-color: #1e90ff;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.footer p {
+    font-size: 14px;
 }
