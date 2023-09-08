@@ -47,6 +47,7 @@ header {
 }
 
 .first-header-subtext{
+    max-width: 100%;
     font-size:18px;
     margin-bottom:30px;
 }
@@ -56,9 +57,16 @@ header {
     background-color:#1e90ff;
     color:#fff;
     padding:10px 20px;
-    font-size:20px-small;
-    border:none;
+    font-size:20px;
+    border:chartreuse;
     cursor:pointer;
+    transition-duration: 0.4s;
+    
+}
+
+.first-class:hover{
+    background-color: #4CAF50;
+    color: white;
 }
 
 /* Style the second section */
@@ -67,15 +75,18 @@ header {
     padding:40px;
 }
 
-.image-second {
-    text-align:center;
+.first-section img{
+    width:100%;
+    height:auto;
+    background-size:cover;
+    border: 1px solid red;
 }
 
-.image-second img {
-    max-width:100%;
-    height:auto;
-    margin-bottom:10px;
+.second-section img {
+    width:200px;
+    height: auto;
 }
+
 
 /* Style the third section */
 .third-section {
@@ -121,6 +132,12 @@ header {
     font-size:20px-small;
     border:none;
     cursor:pointer;
+    transition-duration: 0.4s;
+}
+
+.button:hover{
+  background-color: #4CAF50;
+  color: white;
 }
 
 /* Style the footer */
